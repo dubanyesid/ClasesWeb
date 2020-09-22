@@ -1,0 +1,14 @@
+body{
+	background -color: red;
+}
+
+header{
+
+	height: 100px;
+	background color: blue;
+}
+
+header h1{
+	text-align: center;
+
+}
