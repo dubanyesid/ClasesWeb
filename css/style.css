@@ -1,12 +1,88 @@
   
 /* ****************************************APLICANDO ESTILOS PARA EL MAQUETADO DEL TEXTO****************************************************/
 /* https://github.com/carlosreneas/htmlbasico/blob/master/indexc.html */
-body{
-  background-color: #B5B3F5;
-  /*distancia del borde al primer objeto  */
-  margin: 22px;
+/*Imagen centrada y degradada fondo*/
+html{
+  color :white;
+}
+h1{
+  text-align: center;
+   font-style: italic;
 }
 
+body{
+  margin: 22px;
+  min-height: 100vh;
+  background-image: url("../img/carro1.jpg"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+body:before{
+  content: "";
+  width: 300%;
+  min-height: 300vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  background: linear-gradient(90deg,black, white);
+  opacity: 0.5;
+}
+  /*degradado fondo*/
+  /*background: linear-gradient(white,black);*/
+  /*distancia del borde al primer objeto  */ 
+
+/*div {
+  width: 200px;
+  height: 200px;
+  display: block;
+  position: relative;
+}
+div:after {
+  content: "";
+  background-image: url("../img/carro1.jpg");
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}*/
+.texto1{
+  font-style: italic;
+}
+.texto2{
+  font-style: italic;
+  text-decoration-style: blink;
+}
+table {
+   width: 100%;
+   border: 1px solid #000;
+}
+th{
+  color: black;
+}
+th, td {
+   width: 25%;
+   text-align: left;
+   vertical-align: top;
+   border: 1px solid #000;
+   border-collapse: collapse;
+  font-style: italic;
+   padding: 0.3em;
+   caption-side: bottom;
+}
+caption {
+   padding: 0.3em;
+   color: #fff;
+    background: #000;
+}
+th {
+   background: #eee;
+}
 header{
   /* distancia del objeto al primer Titulo */
   padding: 15px;
@@ -20,9 +96,15 @@ header h1{
   margin-block-start: 0.0em;
   margin-block-end: 0.0em
 }
+.titulo1{
+  text-align: center;
+}
 
-p{
-  text-align: justify;
+.titulo2{
+  text-align: center;
+}
+img {
+  border-radius: 50%;
 }
 
 /*parrafo de la imagen*/
