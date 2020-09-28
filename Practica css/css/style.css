@@ -1,0 +1,149 @@
+h1,h2{
+	color: blue;
+}
+article li{
+	color: #00f;
+}
+article li strong{
+	color: #000;
+}
+aside{
+	float: left;
+	width: 30%;
+	clear: both;
+}
+section{
+	float: left;
+	width: 70%;
+}
+#formacion{
+	float: left;
+	width: 50%;
+}
+#experiencia{
+	float: left;
+	width: 50;
+}
+article li.actual {
+	font-weight: bolder;
+	font-size: 1.2em;
+}
+nav ul{
+	padding: 0;
+}
+nav ul li{
+	display: inline;
+}
+nav ul li a {
+font-family: Arial;
+font-size: 11px;
+text-decoration: none;
+float: left;
+padding: 10px;
+background-color: #2175bc;
+color: #fff;
+}
+nav ul li a:hover {
+	background-color: #2586d7;
+	margin-top: -2px;
+	padding-bottom: 12px;
+}
+footer{
+	clear: both;
+}
+@media (min-width: 601px) and (max-width: 1000px){
+	body{
+		font-family: Arial, sans-serif;
+	}
+	aside{
+		float: left;
+		width: 40%;
+		clear: both;
+	}
+	#formacion{
+		width: 100%;
+	}
+	#experiencia{
+		width: 100%;
+	}
+}
+.menu{
+	width: 800px;
+	margin: 10px auto;
+	list-style: none;
+	background-color: blue;
+	opacity: 0.5;
+}
+.menu li{
+	position: relative;
+	display: inline-block;
+	padding: 30px 20px;
+	font-family: Lucida Bright;
+	text-align: center;
+}
+.menu li a:hover{
+	color: white;
+	transition: 0.3s;
+	box-shadow: 10px 10px 10px black;
+	text-decoration: none;
+
+}
+#avengers{
+	font-family: italianic;
+	color: white;
+	font-size: 35px;
+	text-decoration: none;
+}
+/*
+#button {
+	border: 0px;
+	width: 55%;
+	height: 30px;
+	border-radius: 15px;
+	margin-top: 30px;
+	background-color: #262632;
+}
+
+.botones {
+	
+	width: 19%;
+	height: 25px;
+	float: left;
+	background-color: blue;
+	color: white;
+	font-family: Lucida Bright;
+	font-style: italic;
+	font-size: 15px;
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+.botones:hover {
+	background-color: blue;
+	color: black;
+	transition: 0.5s;
+	box-shadow: 10px 10px 10px black;
+}
+*/
+ body{
+  margin: 22px;
+  min-height: 100vh;
+  background-image: url("../img/foto3.jpg"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+body:before{
+  width: 105%;
+  min-height: 105vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(90deg,black, white);
+  opacity: 0.5;
+}
+img{
+  border-radius: 30%;
+}
